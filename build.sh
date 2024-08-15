@@ -33,13 +33,6 @@ do
   chmod +x ${FILE}
 done
 
-for file in hyperhdr hyperhdr-remote flatc flathash
-do
-  FILE="${EXEC_DIR}/dist/service/hyperhdr/${file}"
-  echo "=> ${FILE}"
-  chmod +x ${FILE}
-done
-
 echo ":: Copy HDR LUT"
 unxz -dc ${EXEC_DIR}/resources/flat_lut_lin_tables.3d.xz > ${EXEC_DIR}/dist/service/hyperhdr/flat_lut_lin_tables.3d
 
