@@ -186,7 +186,6 @@ jobs:
           chmod +x ./dist/service/autostart.sh
           chmod +x ./dist/service/loader_service
           chmod +x ./dist/service/start_hyperhdr
-
           chmod +x ./dist/service/hyperhdr/hyperhdr
 
       - name: Copy HDR LUT
