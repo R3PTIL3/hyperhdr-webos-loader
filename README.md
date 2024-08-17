@@ -1,5 +1,7 @@
 # HyperHDR for WebOS
 
+#Add NV12 image format support for flatbuffers https://github.com/awawa-dev/HyperHDR/pull/920
+
 Binaries are ready to install from [Homebrew Channel](https://repo.webosbrew.org/apps/org.webosbrew.hyperhdr.loader)
 
 ## Requirements
