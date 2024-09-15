@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: satgit62/HyperHDR
-          ref: 21.0.0.0alpha0
+          ref: v21.0.0.0alpha0
           path: hyperhdr-repo
           submodules: recursive
           fetch-depth: 0
