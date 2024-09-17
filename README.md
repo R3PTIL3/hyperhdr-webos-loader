@@ -1,7 +1,11 @@
 # HyperHDR for WebOS
 
+#ai_calibration
+#More precise color capture saving/loading 
+#Support for SDR calibration 
+#Fix calibration for 1280x720 capturing setting
 #Add NV12 image format support for flatbuffers https://github.com/awawa-dev/HyperHDR/pull/920
-
+-------------------------------------------------------------------------------------------------------------------
 Binaries are ready to install from [Homebrew Channel](https://repo.webosbrew.org/apps/org.webosbrew.hyperhdr.loader)
 
 ## Requirements
