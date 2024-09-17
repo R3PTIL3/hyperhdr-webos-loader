@@ -54,7 +54,7 @@ jobs:
       - name: Check if PR branch cloned
         run: |
           sh -c 'if [[ -f package.json ]]; then echo "PR already exists"; exit 1; fi'
-      - name: Clone ai_calibration branch
+      - name: Clone master branch
         uses: actions/checkout@v3
         with:
           ref: ai_calibration
