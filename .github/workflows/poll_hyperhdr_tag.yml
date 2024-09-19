@@ -57,7 +57,7 @@ jobs:
       - name: Clone master branch
         uses: actions/checkout@v3
         with:
-          ref: ai_calibration
+          ref: 
           fetch-depth: 0
       - name: Inject latest tag into CI workflow file
         run: sed -i 's/${{ needs.local_tag.outputs.tag }}/${{ needs.remote_tag.outputs.tag }}/' ./.github/workflows/build.yml
