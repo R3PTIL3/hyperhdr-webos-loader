@@ -1,8 +1,10 @@
 # HyperHDR for WebOS
 
-#ai_calibration
+# ai_calibration
 
-# Add support for SDR (BT2020 in SRGB) calibration
+#Added SDR support for libdile
+
+#Add support for SDR (BT2020 in SRGB) calibration
 
 #More precise color capture saving/loading
 
