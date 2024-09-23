@@ -2,6 +2,8 @@
 
 # ai_calibration
 
+#Add quarter of frame mode for flatbuffers
+
 #Grabber benchmark support for flatbuffers
 
 #Added SDR support for libdile
