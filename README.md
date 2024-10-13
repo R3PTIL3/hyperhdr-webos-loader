@@ -2,7 +2,7 @@
 
 #Fix HyperHDR daemon at screensaver start 
 
-The HyperHDR daemon is no longer stopped when the internal screensaver or the custom Aerial Screensaver for webOS is switched on. (Ambilight works) 
+The HyperHDR daemon is no longer stopped when the internal screensaver or the custom Aerial Screensaver for webOS is switched on. (Ambilight works When using original PicCap/hyperion-webos) 
 
 # ai_calibration
 
